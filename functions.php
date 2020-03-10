@@ -4,7 +4,7 @@ function pdo_connect_mysql() {
     $DATABASE_HOST = 'localhost';
     $DATABASE_USER = 'bda11';
     $DATABASE_PASS = 'zv5<?QU^*,~fFCH&';
-    $DATABASE_NAME = 'maskota';
+    $DATABASE_NAME = 'bda11';
     try {
     	return new PDO('mysql:host=' . $DATABASE_HOST . ';dbname=' . $DATABASE_NAME . ';charset=utf8', $DATABASE_USER, $DATABASE_PASS, [
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
